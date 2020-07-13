@@ -1,0 +1,38 @@
+[
+  {
+    "city": "Delhi",
+    "type": "Bike",
+    "bike_name": "Activa",
+    "price": 400,
+    "vehicle_type": "Scooter",
+    "deposit":2000,
+    "image": "activa.png"
+  },
+  {
+    "city": "Delhi",
+    "type": "Bike",
+    "bike_name": "FZ",
+    "price": 700,
+    "vehicle_type": "Bike",
+    "deposit":2000,
+    "image": "fz.png"
+  },
+  {
+    "city": "Delhi",
+    "type": "Car",
+    "bike_name": "Wagon R",
+    "price": 1200,
+    "vehicle_type": "Economy",
+    "deposit":5000,
+    "image": "wagon.png"
+  },
+  {
+    "city": "Delhi",
+    "type": "Car",
+    "bike_name": "Swift",
+    "price": 1800,
+    "vehicle_type": "Sedan",
+    "deposit":2000,
+    "image": "swift.png"
+  }
+]

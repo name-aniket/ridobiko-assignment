@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+	<meta name="description" content="Book a Ride">
+	<meta name="robots" content="noindex, nofollow">
+	<title>Book a Ride</title>
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="assets/img/logo1.jpg">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+	<!-- Select2 CSS -->
+	<link rel="stylesheet" href="assets/css/select2.min.css">
+
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+	<!-- Main Wrapper -->
+	<div class="main-wrapper">
+
+		<!-- Header -->
+		<div class="header">
+			<div class="header-left">
+				<a href="javascript:void(0)" class="logo">
+					<img src="assets/img/logo1.jpg" width="40" height="40" alt="">
+				</a>
+			</div>
+			<a id="toggle_btn" href="javascript:void(0);">
+				<span class="bar-icon">
+					<span></span>
+					<span></span>
+					<span></span>
+				</span>
+			</a>
+			<div class="page-title-box">
+				<h3>Book a Ride</h3>
+			</div>
+			<a id="mobile_btn" class="mobile_btn" href="#sidebar"><i class="fa fa-bars"></i></a>
+		</div>
+		<!-- /Header -->
+		<div class="sidebar" style="background-color: white;">
+			<div class="row">
+				<div class="col">
+					<ul class="list-group list-group-flush" id="type_filter"></ul>
+				</div>
+			</div>
+		</div>
+		<!-- Page Wrapper -->
+		<div class="page-wrapper">
+			<!-- Page Content -->
+			<div class="content container-fluid">
+				<!-- Search Filter -->
+				<div class="row filter-row">
+					<div class="col-sm-6 col-md-4">
+						<div class="form-group form-focus select-focus">
+							<select class="select floating" id="city">
+							</select>
+							<label class="focus-label">City</label>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4">
+						<div class="form-group form-focus select-focus">
+							<select class="select floating" id="type">
+							</select>
+							<label class="focus-label">Type</label>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4">
+						<a href="javascript:void(0)" class="btn btn-success btn-block" id="find_ride"> Search </a>
+					</div>
+				</div>
+				<!-- Search Filter -->
+				<div class="row" id="rides"></div>
+			</div>
+			<!-- /Page Wrapper -->
+		</div>
+		<!-- /Main Wrapper -->
+
+		<!-- jQuery -->
+		<script src="assets/js/jquery-3.2.1.min.js"></script>
+
+		<!-- Bootstrap Core JS -->
+		<!-- <script src="assets/js/popper.min.js"></script> -->
+		<script src="assets/js/bootstrap.min.js"></script>
+
+		<!-- Select2 JS -->
+		<script src="assets/js/select2.min.js"></script>
+
+		<script src="assets/js/app.js"></script>
+
+		<script src="index.js"></script>
+
+</body>
+
+</html>
